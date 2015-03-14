@@ -1,0 +1,9 @@
+#!/bin/bash
+
+/usr/sbin/hciconfig
+hcitool scan
+rfcomm
+rfcomm bind 0 00:0A:3A:2E:C9:46
+rfcomm
+chmod 666 /dev/rfcomm0
+player roomba-mod.cfg

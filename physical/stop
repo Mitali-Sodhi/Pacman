@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rfcomm
+rfcomm release 0
+rfcomm
